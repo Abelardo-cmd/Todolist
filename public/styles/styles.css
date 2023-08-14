@@ -1,0 +1,113 @@
+
+
+
+
+body{
+    background-color: #e4f1fe;
+}
+
+.main{
+    margin-bottom: 40px;
+    width: 50%;
+    margin-left: 40%;
+    text-align: center;
+}
+
+h1{
+    width: 400px;
+    height: 60px;
+    margin-top: 50px;
+    background-color: #8594e4;
+    
+    border-top-left-radius: 2%;
+   border-top-right-radius: 2%;
+}
+
+.divAB{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    border-bottom: solid 0.1px rgb(243, 234, 234);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+input[type=checkbox]{
+   margin: 20px;
+}
+
+.input2AB{
+    border: none;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.formAB{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 70px;
+    background-color: white;
+    text-align: center;
+   
+}
+
+#btnAB{
+    margin: 10px;
+    background-color: aqua;
+    border: none;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    font-size: 35px;
+    color: aliceblue;
+}
+
+.entrada{
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+div.d-flex{
+   margin:20px;
+}
+
+input[type=checkbox]:checked+p{
+    text-decoration: line-through;
+}
+
+
+    
+@media (max-width:600px){
+    
+    .main{
+        width: 50%;
+        margin-left: 8%;
+
+    }
+}
+
+@media (min-width:600px) and (max-width:1000px){
+    
+    .main{
+        width: 50%;
+        margin-left: 25%;
+
+    }
+
+    
+}
+
+
+
+
+
+
+

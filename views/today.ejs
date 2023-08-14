@@ -1,0 +1,22 @@
+<%- include("header.ejs") %>
+
+     <div class="container main">
+      <h1 class="day">Hoje</h1>
+      <% if(locals.Note) {%>
+        <% for(let i=0;i<Note.length;i++){%>
+        <div class="entrada divAB">
+          <input class="input2AB inputcheck"  type="checkbox">
+          <p><%= Note[i] %></p>
+        </div>
+        <% } %>
+       <% }else{ %>
+        <div></div>
+        <% } %>
+      <form class="formAB ol-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" action="/submit" method="post">
+        <input class="input2AB entrada form-control form-control-dark" type="text" name="Ntext" placeholder="Novo texto" autocomplete="off">
+        <button id="btnAB" type="submit" >+</button>
+      </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+     
+</html>
